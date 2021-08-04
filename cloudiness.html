@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Data Visualizations</title>
+  <title>Cloudiness</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="Resources/styles.css">
 </head>
@@ -43,7 +43,7 @@
   <div class="container landing_page_title">
     <div class="row" >
       <div class="col-8">
-        Summary: Latitude vs. X
+        Cloudiness
       </div>
       <div class="col-4">
         Visualizations
@@ -54,17 +54,16 @@
     <div class="row" >
       <div class="col-md-8" >
         <article>
-         <img src="visualizations/figure_1.png" class="img-thumbnail" alt="Summary" id="viz1" >
-        <p >The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to asemble a dataset on over 500 cities. </p> 
-        <br>
-        <p >After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:  temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+         <img src="visualizations/figure_3.png" class="img-thumbnail" alt="Cloudiness" >
+         <p>This data would appear to be randomly spread, except for the periodic horizontal clusters of points.  This suggests that many measuring stations are unable to make precise readings of cloudiness and instead give general readings such as 0%, 40%, etc... </p>
+        
         
         </article>
       </div>
       <div class="col-md-4">
-        <img src="visualizations/figure_1.png" class=img-thumbnail alt="Latitude vs Max Temp" >
+        <img src="visualizations/figure_1.png" class=img-thumbnail alt="Latitude vs Max Temp"  >
         <img src="visualizations/figure_2.png" class=img-thumbnail alt="Latitude vs Humidity" >
-        <img src="visualizations/figure_3.png" class=img-thumbnail alt="Latitude vs Cloudiness" >
+        <img src="visualizations/figure_3.png" class=img-thumbnail alt="Latitude vs Cloudiness" id ="deepdive">
         <img src="visualizations/figure_4.png" class=img-thumbnail  alt="Latitude vs Wind Speed" >
         
         

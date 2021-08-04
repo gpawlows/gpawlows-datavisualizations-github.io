@@ -1,0 +1,74 @@
+/* Add a black background color to the top navigation */
+
+  .nav-item a:hover {background-color: teal;}
+   
+  .dropdown a:hover {background-color: teal;}
+  
+  
+  .landing_page_title [class^=col-8] {Color:teal;
+                           margin-top: 3cm;
+                           font-size:35px;}
+                      [class^=col-4] {Color:teal;
+                           margin-top: 3cm;
+                           font-size:25px;}
+
+  .lp_summary [class^=col-md-8] {
+          display: inline-block;
+          margin-top: 3cm;
+ }  
+ 
+ .lp_summary >p {
+     float:right;
+ }   
+
+ #viz1 {
+     float:left;
+     width: 60%;
+ }
+
+ .lp_summary [class^=col-md-4]{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+.lp_summary [class^=col-md-4] img{
+  width: 45%;
+  height: 45%;
+  float: left;
+  margin: 1.66%;
+  border: 2px solid black;
+}
+
+#navbarDropdownMenuLink {
+  top: 50%;
+}
+
+#Latitude {
+    background-color: teal;
+    border-width: 1px;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.data_title [class^=col-12] {
+  color: teal;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 1cm;
+}
+
+.data_body [class^=col-12] {
+  color: black;
+  font-size: 10;
+  margin-bottom: 1cm;
+}
+
+.mtemp_summary >p {
+  float:left;
+}  
+
+#deepdive {
+  border-width: 5px;
+  border-color: teal;
+}
