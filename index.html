@@ -25,14 +25,12 @@
             <a class="nav-link" href="comparisons.html">Comparison</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Plots
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="nav-link dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+             <li><a href="max_temperature.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="windspeed.html">Wind Speed</a></li>
             </ul>
           </li>
         </ul>
@@ -62,11 +60,18 @@
         </article>
       </div>
       <div class="col-md-4">
-        <img src="visualizations/figure_1.png" class=img-thumbnail alt="Latitude vs Max Temp" >
-        <img src="visualizations/figure_2.png" class=img-thumbnail alt="Latitude vs Humidity" >
-        <img src="visualizations/figure_3.png" class=img-thumbnail alt="Latitude vs Cloudiness" >
-        <img src="visualizations/figure_4.png" class=img-thumbnail  alt="Latitude vs Wind Speed" >
-        
+        <a href="max_temperature.html">
+          <img src="visualizations/figure_1.png" class=img-thumbnail alt="Latitude vs Max Temp" >
+        </a>
+        <a href="humidity.html">
+          <img src="visualizations/figure_2.png" class=img-thumbnail alt="Latitude vs Humidity" >
+        </a>
+        <a href="cloudiness.html">
+          <img src="visualizations/figure_3.png" class=img-thumbnail alt="Latitude vs Cloudiness" >
+        </a>
+        <a href="windspeed.html">
+          <img src="visualizations/figure_4.png" class=img-thumbnail  alt="Latitude vs Wind Speed" >
+        </a>
         
       </div>
     </div>

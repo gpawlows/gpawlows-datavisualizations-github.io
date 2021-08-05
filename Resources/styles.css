@@ -31,16 +31,20 @@
    flex-wrap: wrap;
  }
 
-.lp_summary [class^=col-md-4] img{
+ .lp_summary [class^=col-md-4] img{
+  width: 98%;
+  height: 98%;
+  float: left;
+  margin: 1.66%;
+  
+}
+
+.lp_summary [class^=col-md-4] a{
   width: 45%;
   height: 45%;
   float: left;
   margin: 1.66%;
   border: 2px solid black;
-}
-
-#navbarDropdownMenuLink {
-  top: 50%;
 }
 
 #Latitude {
